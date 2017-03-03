@@ -20,5 +20,10 @@ body {
   margin-top: 20px;
 }
 
-.imgbox:hover { opacity: 0.3; 
+.imgbox:hover { opacity: 0.3;
   filter: alpha(opacity=30);
+}
+
+a {
+  padding-bottom: 20px;
+}
