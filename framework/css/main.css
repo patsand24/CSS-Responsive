@@ -27,3 +27,11 @@ body {
 a {
   padding-bottom: 20px;
 }
+
+a:active {
+  color: violet;
+}
+
+#heading {
+  text-shadow: -5px -8px 10px #222;
+}
