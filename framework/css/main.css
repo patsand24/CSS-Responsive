@@ -32,6 +32,10 @@ a:active {
   color: violet;
 }
 
-#heading {
-  text-shadow: -5px -8px 10px #222;
+hr {
+  color: #7d97ad;
+  background-color: #7d97ad;
+  border: none;
+  height: 3.5px;
+  margin-bottom: 3rem;
 }
