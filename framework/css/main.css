@@ -1,11 +1,21 @@
+/* Page Styles */
+
 body {
   font-family: 'Lato', sans-serif;
   color: #676858;
   font-weight: 300;
 }
 
-.text-muted {
-  color: #BCBBBB;
+hr {
+  color: #7d97ad;
+  background-color: #7d97ad;
+  border: none;
+  height: 3.5px;
+  margin-bottom: 3rem;
+}
+
+html {
+  font-size: 14px;
 }
 
 .text-thin {
@@ -16,26 +26,37 @@ body {
   font-size: 60px;
 }
 
-.title-logo {
-  margin-top: 20px;
+.text-muted {
+  color: #bcbbbb;
 }
 
 .imgbox:hover { opacity: 0.3;
   filter: alpha(opacity=30);
+  cursor: pointer;
 }
 
-a {
-  padding-bottom: 20px;
+/* Featured Image Borders */
+
+.project-main img {
+  border: 1px solid #f0f5f5;
 }
 
-a:active {
-  color: violet;
+/* Text Media Queries */
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
 }
 
-hr {
-  color: #7d97ad;
-  background-color: #7d97ad;
-  border: none;
-  height: 3.5px;
-  margin-bottom: 3rem;
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
 }
