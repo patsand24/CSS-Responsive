@@ -7,7 +7,6 @@ body {
 }
 
 hr {
-  color: #7d97ad;
   background-color: #7d97ad;
   border: none;
   height: 3.5px;
@@ -30,8 +29,8 @@ html {
   color: #bcbbbb;
 }
 
-.imgbox:hover { opacity: 0.3;
-  filter: alpha(opacity=30);
+.imgbox:hover {
+  opacity: 0.3;
   cursor: pointer;
 }
 
